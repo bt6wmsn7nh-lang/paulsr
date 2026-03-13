@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <!--
+BEGIN INCLUDE "assets/includes/head.html"
+-->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-52RRZJX7MX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-52RRZJX7MX');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <title>WeSlack: Totally Science</title>
+
+    <script>
+        if (window.location.hostname.startsWith('www.')) {
+            let nonWwwDomain = window.location.hostname.slice(4);
+            let newUrl = window.location.protocol + '//' + nonWwwDomain + window.location.pathname + window.location.search + window.location.hash;
+            window.location.replace(newUrl);
+        }
+    </script>
+
+    <script>
+        (function() {
+            const hostname = window.location.hostname.toLowerCase();
+
+            // Only run on root path
+            if (window.location.pathname !== '/') return;
+
+            // Do nothing if hostname contains "weslack"
+            if (hostname.includes('we')) return;
+            if (hostname.includes('slack')) return;
+            if (hostname.includes('hief')) return;
+
+            let host = hostname;
+
+            // Remove leading www
+            if (host.startsWith('www.')) {
+                host = host.slice(4);
+            }
+
+            const parts = host.split('.');
+
+            // Remove final TLD only
+            if (parts.length > 1) {
+                parts.pop();
+            }
+
+            const title = parts
+                .map(part =>
+                    part
+                    .replace(/-/g, ' ')
+                    .replace(/\b\w/g, c => c.toUpperCase())
+                )
+                .join(' ');
+
+            document.title = title;
+            window._title = title;
+        })();
+    </script>
+
+
+
+    <meta property="og:title" content="WeSlack">
+    <meta property="og:site_name" content="WeSlack">
+    <meta property="og:url" content="https://weslack.com">
+    <meta property="og:description" content="Play free online games at WeSlack - your one-stop destination for free online games! io games, puzzle games, Flash games, shooting games and more. And why &quot;WeSlack&quot;? It's our secret for bypassing school blockers. Sit back, relax, and enjoy learning...science?">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://weslack.com/assets/images/totally-science-logo-transparent-scaled.png">
+    <meta charset="UTF-8">
+    <meta name="url" content="https://weslack.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="twitter:title" content="WeSlack">
+    <meta name="DC.format" content="text/html" scheme="DCTERMS.DCMIType">
+    <meta name="DC.publisher" content="WeSlack" scheme="DCTERMS.DCMIType">
+    <meta name="DC.description" content="Play free online games at WeSlack - your one-stop destination for free online games! io games, puzzle games, Flash games, shooting games and more. And why &quot;WeSlack&quot;? It's our secret for bypassing school blockers. Sit back, relax, and enjoy learning...science?"
+        scheme="DCTERMS.DCMIType">
+    <meta name="DC.subject" content="WeSlack, games, gaming, online games, unblocked games" scheme="DCTERMS.DCMIType">
+    <meta name="subject" content="WeSlack, games, gaming, online games, unblocked games">
+    <meta name="keywords" content="WeSlack, games, gaming, online games, unblocked games, discord unblocked, minecraft online, roblox unblocked">
+    <meta name="twitter:description" content="Play free online games at WeSlack - your one-stop destination for free online games! io games, puzzle games, Flash games, shooting games and more. And why &quot;WeSlack&quot;? It's our secret for bypassing school blockers. Sit back, relax, and enjoy learning...science?">
+    <meta name="twitter:url" content="https://weslack.com">
+    <meta name="twitter:image" content="https://weslack.com/assets/images/totally-science-logo-transparent-scaled.png">
+    <meta name='description' content="Play free online games at WeSlack - your one-stop destination for free online games! io games, puzzle games, Flash games, shooting games and more. And why &quot;WeSlack&quot;? It's our secret for bypassing school blockers. Sit back, relax, and enjoy learning...science?">
+    <meta name="theme-color" content="#f75dfc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preload" href="/assets/Rubik.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <!-- WG Universal adCode -->
+    <script type="text/javascript" async>
+        function ensureCanonical(url) {
+            // Find any existing canonical link element
+            var canonicalLink = document.querySelector('link[rel="canonical"]');
+
+            // Check if a canonical link exists
+            if (canonicalLink) {
+                // Update the href attribute if it already exists
+                canonicalLink.href = url;
+            } else {
+                // Create a new link element for canonical
+                canonicalLink = document.createElement('link');
+                canonicalLink.rel = "canonical";
+                canonicalLink.href = url;
+
+                // Append the new canonical link to the head of the document
+                document.getElementsByTagName('head')[0].appendChild(canonicalLink);
+            }
+        }
+
+        function getPathFromUrl(url) {
+            const parsedUrl = new URL(url);
+            return parsedUrl.pathname;
+        }
+
+        function addMetaNoIndexNoFollow() {
+            const meta = document.createElement('meta');
+            meta.name = 'robots';
+            meta.content = 'noindex, nofollow';
+            document.head.appendChild(meta);
+        }
+
+        if (document && document.domain == "weslack.com" && window.top == window) {
+            ! function(e, t) {
+                a = e.createElement("script"), m = e.getElementsByTagName("script")[0], a.async = 1, a.src = t, m.parentNode
+                    .insertBefore(a, m)
+            }(document, "https://universal.wgplayer.com/tag/?lh=" + window.location.hostname + "&wp=" + window.location
+                .pathname + "&ws=" + window.location.search);
+        } else {
+            ! function(e, t) {
+                a = e.createElement("script"), m = e.getElementsByTagName("script")[0], a.async = 1, a.src = t, m.parentNode
+                    .insertBefore(a, m)
+            }(document, "https://universal.wgplayer.com/tag/?lh=" + window.location.hostname + "&wp=" + window.location
+                .pathname + "&ws=" + window.location.search);
+
+            if (window.location.pathname !== '/') {
+                ensureCanonical('https://weslack.com' + getPathFromUrl(window.location.href));
+            }
+
+            //addMetaNoIndexNoFollow();
+        }
+    </script>
+
+    <script type="text/javascript">
+        if (window.location.protocol === 'http:' && !/^(localhost|127.0.0.1)$/.test(window.location.hostname)) {
+            window.location.href = window.location.href.replace('http:', 'https:');
+        }
+    </script>
+
+    <script src="/assets/scripts/sweetalert.min.js"></script>
+
+    <!-- Lazy loading 
+<!--
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+-->
+
+
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="/assets/images/totally-science-logo-transparent-scaled.png">
+
+    <!--
+END INCLUDE "assets/includes/head.html"
+-->
+
+
+
+    <link rel='stylesheet' href='index.css'>
+
+
+    <script src="/eclipse/register-eclipse-sw.js" defer></script>
+
+
+</head>
+
+<body>
+
+    <script>
+        window.onload = async () => {
+            try {
+                await registerEclipseSW();
+                console.log("Service Worker registered successfully");
+            } catch (error) {
+                console.error("Service Worker registration failed:", error);
+            }
+        };
+    </script>
+
+    <!--
+BEGIN INCLUDE "assets/includes/navbar.html"
+-->
+
+    <div id="navbar">
+        <button aria-label="Open/Close sidebar" class="desktop_toggle_button" type="button">
+        <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="button_svg">
+            <path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
+                d="M19.3 4.4C19.8 4.4 20.3 3.9 20.3 3.4C20.3 2.9 19.8 2.4 19.3 2.4H3.6C3.1 2.4 2.6 2.9 2.6 3.4C2.6 3.9 3.1 4.4 3.6 4.4H19.3ZM20.2 8.2L14.9 11.5C14.3 11.9 14.3 12.7 14.9 13.1L20.2 16.4C20.9 16.8 21.8 16.3 21.8 15.5V8.9C21.8 8.1 20.9 7.6 20.2 8.2ZM11.4 13.4C11.9 13.4 12.4 12.9 12.4 12.4C12.4 11.9 11.9 11.4 11.4 11.4H3.6C3.1 11.4 2.6 11.9 2.6 12.4C2.6 12.9 3.1 13.4 3.6 13.4H11.4ZM19.7 21.6C19.7 22.1 19.2 22.6 18.7 22.6H3.6C3.1 22.6 2.6 22.1 2.6 21.6C2.6 21.1 3.1 20.6 3.6 20.6H18.7C19.2 20.6 19.7 21.1 19.7 21.6Z">
+            </path>
+        </svg>
+    </button>
+        <div id="middlebar">
+            <a href="/">
+            <img src="transparentlogo.png"></img>
+            <h1>WeSlack</h1>
+        </a>
+        </div>
+        <div id="leftbar">
+            <div class="nav-button" id="gamesnav"><a href="/">&#127918; Games</a></div>
+            <div class="nav-button" id="leaderboardnav"><a href="/app/Online%20Games%20io/">&#127942;
+                Online Games.io</a></div>
+            <div class="nav-button" id="appsnav"><a href="/apps/">&#127922; Apps</a></div>
+            <div class="nav-button" id="aichatnav"><a href="/app/Unblocked%20Games/">&#129302;
+                Totally Science</a></div>
+            <div class="nav-button" id="shopnav"><a href="https://discord.com/invite/t2EwRyhFcG" target="_blank">&#127918; Discord</a></div>
+        </div>
+
+        <div id="rightbar">
+
+            <div class="searchbar" tooltip="Search" flow="down">
+                <p onclick="window.location.href='/classes.html?search=true'">
+                    <img src="magnifying-light.svg">
+                </p>
+            </div>
+
+            <div class="nav-button" tooltip="Panic Key" flow="down">
+                <img id="tilde-icon" style="cursor:pointer;" onclick="window.open('https:/\/classroom.google.com', '_blank')" src="/assets/images/icons/tilde-key.avif">
+            </div>
+
+
+            <a id="settings" href="/settings/">
+            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24"
+                width="24px" fill="#ffffff">
+                <g>
+                    <path d="M0,0h24v24H0V0z" fill="none" />
+                    <path
+                        d="M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z" />
+                </g>
+            </svg>
+        </a>
+        </div>
+        <button aria-label="Open/Close sidebar" class="mobile_toggle_button" type="button">
+        <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="button_svg">
+            <path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
+                d="M2 5C2 4.44772 2.44772 4 3 4H15C15.5523 4 16 4.44772 16 5C16 5.55228 15.5523 6 15 6H3C2.44772 6 2 5.55228 2 5ZM2 12C2 11.4477 2.44772 11 3 11L21 11C21.5523 11 22 11.4477 22 12C22 12.5523 21.5523 13 21 13L3 13C2.44772 13 2 12.5523 2 12ZM2 19C2 18.4477 2.44772 18 3 18L21 18C21.5523 18 22 18.4477 22 19C22 19.5523 21.5523 20 21 20L3 20C2.44772 20 2 19.5523 2 19Z">
+            </path>
+        </svg>
+    </button>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const desktopToggleButton = document.querySelector('.desktop_toggle_button');
+            const mobileToggleButton = document.querySelector('.mobile_toggle_button');
+            const sidebar = document.querySelector('.sidebar');
+            const body = document.body; // Add a reference to the body element
+
+            // Function to toggle sidebar and rotate button
+            function toggleSidebar(button) {
+                sidebar.classList.toggle('open');
+                button.classList.toggle('rotate'); // Add/remove rotate class from the button
+
+                if (sidebar.classList.contains('open')) {
+                    body.classList.add('sidebar-open'); // Add class to body when sidebar is open
+                    console.log('Sidebar is open');
+                } else {
+                    body.classList.remove('sidebar-open'); // Remove class from body when sidebar is closed
+                    console.log('Sidebar is closed');
+                }
+            }
+
+            // Event listener for desktop toggle button
+            if (desktopToggleButton) {
+                desktopToggleButton.addEventListener('click', function() {
+                    toggleSidebar(desktopToggleButton);
+                });
+            }
+
+            // Event listener for mobile toggle button
+            if (mobileToggleButton) {
+                mobileToggleButton.addEventListener('click', function() {
+                    toggleSidebar(mobileToggleButton);
+                });
+            }
+        });
+    </script>
+
+    <script>
+        window.addEventListener('load', () => {
+            const hostname = window.location.hostname.toLowerCase();
+
+            // Only run on root path
+            if (window.location.pathname !== '/') return;
+
+            // Skip WeSlack domains
+            if (hostname.includes('we')) return;
+            if (hostname.includes('slack')) return;
+            if (hostname.includes('hief')) return;
+
+            let host = hostname;
+            if (host.startsWith('www.')) host = host.slice(4);
+
+            const parts = host.split('.');
+            if (parts.length > 1) {
+                parts.pop();
+            }
+
+            const title = parts
+                .map(p =>
+                    p.replace(/-/g, ' ')
+                    .replace(/\b\w/g, c => c.toUpperCase())
+                )
+                .join(' ');
+
+            const h1 = document.querySelector('#middlebar h1');
+            if (!h1) return;
+
+            const text = h1.textContent.trim();
+
+            // ✅ If empty or too short, set directly
+            if (text.length < 2) {
+                return;
+            }
+
+            // Otherwise replace WeSlack if present
+            if (/weslack/i.test(text)) {
+                h1.textContent = text.replace(/weslack/ig, title);
+            }
+        });
+    </script>
+
+
+    <!--
+END INCLUDE "assets/includes/navbar.html"
+-->
+    <!--
+BEGIN INCLUDE "assets/includes/sidebar.html"
+-->
+
+    <nav class="sidebar">
+        <div class="mobile_button">
+            <button class="close" type="button">
+            <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="close">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M8.33006 18.7424C8.74008 19.1124 9.37242 19.08 9.74241 18.6699C10.1124 18.2599 10.08 17.6276 9.66993 17.2576L4.95171 13L21 13C21.5523 13 22 12.5523 22 12C22 11.4477 21.5523 11 21 11L4.9517 11L9.66993 6.74242C10.08 6.37243 10.1124 5.7401 9.74241 5.33007C9.37242 4.92004 8.74008 4.88759 8.33006 5.25759L2.78909 10.2576C1.73696 11.207 1.73696 12.793 2.78909 13.7424L8.33006 18.7424Z">
+                </path>
+            </svg>
+        </button>
+        </div>
+        <ul class="navbar__menu" id="navbar-menu">
+
+        </ul>
+    </nav>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menu = document.getElementById('navbar-menu');
+            const sidebar = document.querySelector('.sidebar');
+            const toggleButton = document.querySelector('.toggleButton');
+            const mobileCloseButton = document.querySelector('.mobile_button .close');
+            const currentPath = window.location.pathname; // Get current path
+
+            // Fetch the JSON data
+            fetch('/assets/category.json')
+                .then(response => response.json())
+                .then(data => {
+                    if (menu) {
+                        // Create list items for each category
+                        data.forEach(category => {
+                            const li = document.createElement('li');
+                            li.id = `category-${category.name.replace(/\s+/g, '-')}`;
+
+                            const emojiSpan = document.createElement('span');
+                            emojiSpan.className = 'emoji';
+                            emojiSpan.textContent = category.emoji;
+
+                            const nameAnchor = document.createElement('a');
+                            nameAnchor.textContent = category.name;
+                            nameAnchor.href = category.link || '#';
+                            nameAnchor.className = 'menu-link';
+                            nameAnchor.target = category.target || '_self'; // Set target from JSON
+
+                            li.appendChild(emojiSpan);
+                            li.appendChild(nameAnchor);
+
+                            // Hide categories on desktop
+                            if (category.hideOnDesktop) {
+                                li.classList.add('desktop-hide');
+                            }
+
+                            // Add 'active' class based on current URL
+                            if (category.link === currentPath ||
+                                (category.link === '/' && currentPath === '/')) {
+                                li.classList.add('active');
+                            }
+
+                            li.addEventListener('click', function(e) {
+                                e.preventDefault();
+
+                                // Remove 'active' class from all items
+                                document.querySelectorAll('#navbar-menu li').forEach(item => item.classList.remove('active'));
+
+                                // Add 'active' class to the clicked item
+                                li.classList.add('active');
+
+                                // Redirect if the link is present
+                                if (category.link) {
+                                    if (category.target === '_self') {
+                                        window.location.href = category.link;
+                                    } else {
+                                        window.open(category.link, category.target);
+                                    }
+                                }
+                            });
+
+                            menu.appendChild(li);
+                        });
+                    }
+                })
+                .catch(error => console.error('Error fetching category data:', error));
+
+            if (toggleButton) {
+                toggleButton.addEventListener('click', function() {
+                    sidebar.classList.toggle('open');
+
+                    if (sidebar.classList.contains('open')) {
+                        document.body.style.overflow = 'hidden';
+                    } else {
+                        document.body.style.overflow = '';
+                    }
+                });
+            }
+
+            if (mobileCloseButton) {
+                mobileCloseButton.addEventListener('click', function() {
+                    sidebar.classList.remove('open');
+                    document.body.classList.remove('sidebar-open');
+                    document.body.style.overflow = '';
+                });
+            }
+        });
+    </script>
+
+
+    <!--
+END INCLUDE "assets/includes/sidebar.html"
+-->
+
+    <div class="main-content">
+        <div class="layout">
+            <div id="pointsbar">
+                <!-- <div class="backbar">
+            <div id="rewardDayBar" class="bar" style="width:0%"></div>
+            <div class="dayCon">
+                <p>Day 1</p>
+                <p>Day 2</p>
+                <p>Day 3</p>
+                <p>Day 4</p>
+                <p>Day 5</p>
+                <p>Day 6</p>
+                <img src="assets/images/icons/chest.avif" style="pointer-events: none;">
+            </div>
+        </div> -->
+
+                <p class='timerText' id='timerText'><span class="loader"></span><span id="rewardTimer"></span></p>
+
+
+            </div>
+
+
+            <div id="startcontent">
+                <div id="feature">
+                    <div id="feature-1" class="featureSlot fade" style="display:none;">
+                        <div class="overlay">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg" onclick="plusSlides(-1)">
+                            <h2 class="gametext stroke-text smooth-16"></h2>
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg" onclick="plusSlides(1)">
+                        </div>
+
+                        <button class="featureButton button">Play Now <svg xmlns="http://www.w3.org/2000/svg"
+                                height="1em" viewBox="0 0 320 512" fill="#ffffff">
+                                <path
+                                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                            </svg></button>
+                    </div>
+
+                    <div id="feature-2" class="featureSlot fade" style="display:none;">
+                        <div class="overlay">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg" onclick="plusSlides(-1)">
+                            <h2 class="gametext stroke-text smooth-16"></h2>
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg" onclick="plusSlides(1)">
+                        </div>
+
+                        <button class="featureButton button">Play Now <svg xmlns="http://www.w3.org/2000/svg"
+                                height="1em" viewBox="0 0 320 512" fill="#ffffff">
+                                <path
+                                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                            </svg></button>
+                    </div>
+
+                    <div id="feature-3" class="featureSlot fade" style="display:none;">
+                        <div class="overlay">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg" onclick="plusSlides(-1)">
+                            <h2 class="gametext stroke-text smooth-16"></h2>
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg" onclick="plusSlides(1)">
+                        </div>
+
+                        <button class="featureButton button">Play Now <svg xmlns="http://www.w3.org/2000/svg"
+                                height="1em" fill="#ffffff" viewBox="0 0 320 512">
+                                <path
+                                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                            </svg></button>
+                    </div>
+
+                    <div id="feature-4" class="featureSlot fade" style="display:none;">
+                        <div class="overlay">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg" onclick="plusSlides(-1)">
+                            <h2 class="gametext stroke-text smooth-16"></h2>
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg" onclick="plusSlides(1)">
+                        </div>
+
+                        <button class="featureButton button">Play Now <svg xmlns="http://www.w3.org/2000/svg"
+                                height="1em" viewBox="0 0 320 512" fill="#ffffff">
+                                <path
+                                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                            </svg></button>
+                    </div>
+                </div>
+
+                <div id="scisuggests">
+                    <div style="background-image: url(./assets/images/icons/preload.gif)" id="gameDiv"></div>
+                    <div style="background-image: url(./assets/images/icons/preload.gif)" id="gameDiv"></div>
+                    <div style="background-image: url(./assets/images/icons/preload.gif)" id="gameDiv"></div>
+                    <div style="background-image: url(./assets/images/icons/preload.gif)" id="gameDiv"></div>
+                </div>
+            </div>
+
+
+
+            <div id="games">
+
+                <div class="titleContainer" style="display: none;" id="recentGamesLabel">
+                    <h2 class="game-title">Recently Played <a href="/classes/recent/">View More</a></h2>
+                    <!-- SVG omitted -->
+                </div>
+
+                <div id="recentlyPlayedCon" class="horizontalCon" style="display: none;">
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <div class="gamesCon" id="recentGamesCon"></div>
+                </div>
+
+                <!--<h1 id="newGamesLabel" style="display: none;">New Games <a href="/classes/new/">View More</a></h2>
+        <div id="newGamesHorizontalCon" class="horizontalCon" style="display: none;">
+            
+BEGIN INCLUDE "assets/includes/arrows.html"
+
+<div class="arrowsCon">
+    <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+        <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+    </div>
+    
+    <div class="arrowCon arrowRightCon" id="arrowRight" >
+        <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+    </div>
+</div>
+
+END INCLUDE "assets/includes/arrows.html"
+
+
+            <div class="gamesCon" id="newGamesCon"></div>
+        </div>-->
+
+                <!--<h2>Popular Games</h2>-->
+                <!--<div id="popularGamesHorizontalCon" class="horizontalCon">
+            
+BEGIN INCLUDE "assets/includes/arrows.html"
+
+<div class="arrowsCon">
+    <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+        <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+    </div>
+    
+    <div class="arrowCon arrowRightCon" id="arrowRight" >
+        <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+    </div>
+</div>
+
+END INCLUDE "assets/includes/arrows.html"
+
+
+            <div class="gamesCon" id="popularGamesCon"></div>
+        </div>-->
+
+                <div class="titleContainer" id="pinGamesLabel" style="display: none;">
+                    <h2>Pinned Games</h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="pinGamesHorizontalCon" class="horizontalCon" style="display: none;">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="gamesCon" id="pinGamesCon"></div>
+                </div>
+
+                <div class="titleContainer" id="likedGamesLabel" style="display: none;">
+                    <h2>Liked Games <a href="/classes/liked/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="likedGamesHorizontalCon" class="horizontalCon" style="display: none;">
+
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="gamesCon" id="likedGamesCon"></div>
+                </div>
+
+
+                <div class="titleContainer">
+                    <h2 class="game-title">Enigma Apps <a href="/classes/enigma/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="enigmaGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+
+
+
+                <div class="titleContainer">
+                    <h2 class="game-title">Multiplayer Games <a href="/classes/multiplayer/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+
+                <div id="multiplayerGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">Car Games <a href="/classes/car/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+
+                <div id="carGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">Casual Games <a href="/classes/casual/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="casualGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">Action Games <a href="/classes/action/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="actionGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">Shooting Games <a href="/classes/shooting/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+
+                <div id="shootingGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">Puzzle Games <a href="/classes/puzzle/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="puzzleGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">Classic Games <a href="/classes/classic/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="classicGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">Sport Games <a href="/classes/sport/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="sportGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">Clicker Games <a href="/classes/clicker/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="clickerGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">Escape Games <a href="/classes/escape/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="escapeGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">2 Player Games <a href="/classes/2/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="2GamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">Horror Games <a href="/classes/horror/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="horrorGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">Hard Games <a href="/classes/hard/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="hardGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">Music Games <a href="/classes/music/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="musicGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+                <div class="titleContainer">
+                    <h2 class="game-title">Flash Games <a href="/classes/flash/">View More</a></h2>
+                    <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="double-arrow left-arrow">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.25757 2.33007C3.62757 1.92005 4.2599 1.88759 4.66993 2.25759L12.9814 9.75759C14.3395 10.9831 14.3395 13.0169 12.9814 14.2424L4.66993 21.7424C4.2599 22.1124 3.62757 22.08 3.25757 21.6699C2.88758 21.2599 2.92003 20.6276 3.33006 20.2576L11.6415 12.7576C12.1195 12.3263 12.1195 11.6737 11.6415 11.2424L3.33006 3.74243C2.92003 3.37243 2.88758 2.7401 3.25757 2.33007Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.2576 2.33007C11.6276 1.92005 12.2599 1.88759 12.6699 2.25759L20.9814 9.75759C22.3395 10.9831 22.3395 13.0169 20.9814 14.2424L12.6699 21.7424C12.2599 22.1124 11.6276 22.08 11.2576 21.6699C10.8876 21.2599 10.92 20.6276 11.3301 20.2576L19.6415 12.7576C20.1195 12.3263 20.1195 11.6737 19.6415 11.2424L11.3301 3.74243C10.92 3.37243 10.8876 2.7401 11.2576 2.33007Z">
+                        </path>
+                    </svg>
+                </div>
+                <div id="flashGamesHorizontalCon" class="horizontalCon">
+                    <!--
+BEGIN INCLUDE "assets/includes/arrows.html"
+-->
+                    <div class="arrowsCon">
+                        <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+                            <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+                        </div>
+
+                        <div class="arrowCon arrowRightCon" id="arrowRight">
+                            <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+                        </div>
+                    </div>
+                    <!--
+END INCLUDE "assets/includes/arrows.html"
+-->
+                </div>
+
+                <!--<h2>Partners <a href="/partners/">View More</a></h2>
+        <div class="horizontalCon">
+            
+<div class="arrowsCon">
+    <div class="arrowCon arrowLeftCon" id="arrowLeft" style="visibility: hidden;">
+        <img class="arrow" src="/assets/images/icons/arrow-left.svg">
+    </div>
+    
+    <div class="arrowCon arrowRightCon" id="arrowRight" >
+        <img class="arrow" src="/assets/images/icons/arrow-right.svg">
+    </div>
+</div>
+
+END INCLUDE "assets/includes/arrows.html"
+
+
+            <div class="gamesCon" id="PartnersCon"></div>
+        </div>-->
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- categories of games -->
+    <div id="extraCategories">
+        <div id="extraCategory" onclick="window.open('/classes/car/', '_self')">
+            <img class="lazy" data-src="assets/images/extracats/cars.png" style="width: 100%; height: calc(100% - 50px); border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <p>Car Games</p>
+        </div>
+
+
+        <div id="extraCategory" onclick="window.open('/classes/action/', '_self')">
+            <img class="lazy" data-src="assets/images/extracats/vex-7-games.png" style="width: 100%; height: calc(100% - 50px); border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <p>Vex Games</p>
+        </div>
+
+        <div id="extraCategory" onclick="window.open('/classes/casual/', '_self')">
+            <img class="lazy" data-src="assets/images/extracats/arcade.jpg" style="width: 100%; height: calc(100% - 50px); border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <p>Arcade Games</p>
+        </div>
+
+        <div id="extraCategory" onclick="window.open('/classes/clicker/', '_self')">
+            <img class="lazy" data-src="assets/images/extracats/clicker.png" style="width: 100%; height: calc(100% - 50px); border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <p>Clicker Games</p>
+        </div>
+
+        <div id="extraCategory" onclick="window.open('/classes/multiplayer/', '_self')">
+            <img class="lazy" data-src="assets/images/extracats/multiplayer.png" style="width: 100%; height: calc(100% - 50px); border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <p>Multiplayer Games</p>
+        </div>
+
+        <div id="extraCategory" onclick="window.open('/classes/music/', '_self')">
+            <img class="lazy" data-src="assets/images/extracats/fnf.jpg" style="width: 100%; height: calc(100% - 50px); border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <p>Friday Night Funkin' Games</p>
+        </div>
+
+        <div id="extraCategory" onclick="window.open('/classes/horror/', '_self')">
+            <img class="lazy" data-src="assets/images/extracats/fnaf.png" style="width: 100%; height: calc(100% - 50px); border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <p>Five Nights at Freddy's Games</p>
+        </div>
+
+        <div id="extraCategory" onclick="window.open('/classes/all/', '_self')">
+            <img class="lazy" data-src="assets/images/extracats/running.jpg" style="width: 100%; height: calc(100% - 50px); border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <p>All Games</p>
+        </div>
+
+        <div id="extraCategory" onclick="window.open('/classes/puzzle/', '_self')">
+            <img class="lazy" data-src="assets/images/extracats/puzzle.jpg" style="width: 100%; height: calc(100% - 50px); border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <p>Puzzle Games</p>
+        </div>
+
+        <div id="extraCategory" onclick="window.open('/classes/escape/', '_self')">
+            <img class="lazy" data-src="assets/images/extracats/henrystickmin.png" style="width: 100%; height: calc(100% - 50px); border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <p>Henry Stickmin Games</p>
+        </div>
+    </div>
+
+
+
+    <!-- description of TS and what it offers, included partially for SEO -->
+    <div id="about">
+        <p class="tophead">ABOUT WESLACK</p>
+        <h1>
+            WeSlack: Totally Science
+        </h1>
+        <p>
+            WeSlack is your one-stop destination for unblocked games and a versatile online service that lets you access any website you want—from streaming YouTube videos to exploring your favorite social media platforms. Launched in 2025 and rapidly growing, WeSlack
+            aims to deliver a dynamic and enjoyable experience for students and gamers around the world.
+        </p>
+        <h2>Why are unblocked games popular?</h2>
+        <p>
+            Unblocked games have become a hit with students because they are fast, free, and accessible anytime and anywhere. Whether you're trying to set a new high score or simply looking for a break from everyday routines, WeSlack offers a selection of games that
+            load quickly and require no downloads, keeping you entertained without interruptions.
+        </p>
+        <h2>What are unblocked games?</h2>
+        <p>
+            Unblocked games are specially designed to circumvent network restrictions and filters typically enforced by schools, workplaces, or public networks. This means you can enjoy your favorite games without limits, no matter where you are.
+        </p>
+        <h2>Where can I play unblocked games?</h2>
+        <p>
+            With WeSlack, you can enjoy a wide array of unblocked games wherever you have an internet connection—whether you're at home, school, or on the go.
+        </p>
+        <h2>Can I play unblocked games on a Chromebook?</h2>
+        <p>
+            Absolutely! WeSlack's games are developed to work seamlessly across multiple devices including Chromebooks, MacBooks, iPads, and more. Since the games are browser-based, they require no installation, making them perfect for any device.
+        </p>
+        <h2>How to access unblocked games on school computers</h2>
+        <p>
+            To enjoy unblocked games on a school computer, visit WeSlack and explore our extensive game categories. From multiplayer action and puzzle challenges to sports and casual games, there's something for everyone.
+        </p>
+        <h2>What are some of the top unblocked games available?</h2>
+        <p>
+            WeSlack boasts an impressive library of popular unblocked games. Here are the top 14 favorites among our users:
+        </p>
+        <ul>
+            <li>Minecraft</li>
+            <li>Monkey Mart</li>
+            <li>Geometry Dash</li>
+            <li>Cluster Rush</li>
+            <li>Bit Life</li>
+            <li>1v1 LOL</li>
+            <li>Bob the Robber 2</li>
+            <li>Drift Boss</li>
+            <li>Basketball Stars</li>
+            <li>Pixel Gun 3D</li>
+            <li>Basket Random</li>
+            <li>Moto X3M</li>
+            <li>Death Run 3D</li>
+            <li>Tactical Assassin 2</li>
+        </ul>
+        <h2>Where can I find alternative links for WeSlack?</h2>
+        <p>
+            If you're seeking alternative access links for WeSlack, check out these resources:
+        </p>
+        <ul>
+            <li>Visit our partner site at <a href="https://scienceunblocked.com/" target="_blank">Science Unblocked</a></li>
+        </ul>
+        <br><br>
+    </div>
+
+    <script>
+        window.addEventListener('load', () => {
+            const hostname = window.location.hostname.toLowerCase();
+
+            // If hostname does NOT include "we" or "slack", remove #about
+            if (!hostname.includes('we') && !hostname.includes('slack')) {
+                const about = document.getElementById('about');
+                if (about) {
+                    about.remove();
+                }
+            }
+        });
+    </script>
+
+
+    <br><br>
+    <div id="disqus_thread" style="margin-left: 100px; margin-right: 100px;"></div>
+
+    <script>
+        if (document) {
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                    s = d.createElement('script');
+                s.src = 'https://definitely-science.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+
+        }
+    </script>
+
+    <script id="dsq-count-scr" src="//definitely-science.disqus.com/count.js" async></script>
+
+
+    <!--
+BEGIN INCLUDE "assets/includes/footer.html"
+-->
+
+    <footer>
+        <div class="footSections">
+            <div class="footSection">
+                <h1 class="contact">Contact Us</h1>
+                <p><a href="mailto: contact@totallyscience.io" target="_blank">contact@totallyscience.io</a></p>
+                <p><a href="https://discord.com/invite/t2EwRyhFcG" target="_blank">Discord</a></p>
+                <p><a href="https://freezenova.blog/" target="_blank">Subscribe</a></p>
+                <p><a href="https://d1tmbzjih4bfq6.cloudfront.net/" target="_blank">Completely Science</a></p>
+                <p><a href="https://www.youtube.com/@DefinitelyScience" target="_blank">Follow our Youtube</a></p>
+                <p><a href="https://totallyscience.co">Totally Science</a></p>
+                <p><a href="https://random-proxy.com/" rel="nofollow">Random-Proxy.com</a></p>
+
+                <p><a href="/hide.html">&#127918; Hide</a></p>
+            </div>
+
+            <div class="footSection">
+
+                <div class="teamFoot">
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="footSection">
+                <h1 class="legal">Legal</h1>
+
+                <p><a href="/termsofuse/">Terms of Use</a></p>
+                <p><a href="/privacypolicy/">Privacy Policy</a></p>
+            </div>
+        </div>
+
+        <div class="bottomFoot">© 2025 WeSlack</div>
+
+        <div class="back-top">
+            <button id="back-to-top" class="back-to-top-button">
+            <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true" class="back-to-top">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M5.25759 8.33007C4.88759 8.7401 4.92005 9.37243 5.33007 9.74243C5.7401 10.1124 6.37243 10.08 6.74243 9.66994L11 4.95172L11 21C11 21.5523 11.4477 22 12 22C12.5523 22 13 21.5523 13 21L13 4.95171L17.2576 9.66994C17.6276 10.08 18.2599 10.1124 18.6699 9.74243C19.08 9.37243 19.1124 8.7401 18.7424 8.33007L13.7424 2.7891C12.793 1.73698 11.207 1.73697 10.2576 2.7891L5.25759 8.33007Z">
+                </path>
+            </svg>
+        </button>
+        </div>
+
+    </footer>
+    <script src="/assets/scripts/main.js"></script>
+    <script>
+        const backToTopButton = document.getElementById('back-to-top');
+
+        window.onscroll = function() {
+            // Show the button when the user scrolls down 100px from the top
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.opacity = "1";
+            } else {
+                backToTopButton.style.opacity = "0";
+            }
+        };
+
+        // Function to handle click event
+        backToTopButton.onclick = function() {
+            // Smooth scroll back to the top
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        };
+    </script>
+
+
+    <!--
+END INCLUDE "assets/includes/footer.html"
+-->
+
+
+    <script src="/assets/scripts/index.js"></script>
+    <script>
+    </script>
+</body>
+
+</html>

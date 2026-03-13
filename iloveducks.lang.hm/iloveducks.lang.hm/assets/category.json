@@ -1,0 +1,175 @@
+[
+    {
+        "name": "Home",
+        "emoji": "🏠",
+        "link": "/",
+        "target": "_self"
+    },
+    {
+        "name": "Recently Played",
+        "emoji": "⏳",
+        "link": "/classes/recent/",
+        "target": "_self"
+    },
+    {
+        "name": "Liked Games",
+        "emoji": "❤️",
+        "link": "/classes/liked/",
+        "target": "_self"
+    },
+    {
+        "name": "Action",
+        "emoji": "⚔️",
+        "link": "/classes/action/",
+        "target": "_self"
+    },
+    {
+        "name": "All Games",
+        "emoji": "🎲",
+        "link": "/classes/all/",
+        "target": "_self"
+    },
+    {
+        "name": "Arcade",
+        "emoji": "🕹️",
+        "link": "/classes/arcade/",
+        "target": "_self"
+    },
+    {
+        "name": "Car",
+        "emoji": "🚗",
+        "link": "/classes/car/",
+        "target": "_self"
+    },
+    {
+        "name": "Casual",
+        "emoji": "🎳",
+        "link": "/classes/casual/",
+        "target": "_self"
+    },
+    {
+        "name": "Clicker",
+        "emoji": "🖱️",
+        "link": "/classes/clicker/",
+        "target": "_self"
+    },
+    {
+        "name": "Classic",
+        "emoji": "🎮",
+        "link": "/classes/classic/",
+        "target": "_self"
+    },
+    {
+        "name": "Enigma Apps",
+        "emoji": "🧠",
+        "link": "/classes/enigma/",
+        "target": "_self"
+    },
+    {
+        "name": "Escape",
+        "emoji": "🚪",
+        "link": "/classes/escape/",
+        "target": "_self"
+    },
+    {
+        "name": "Hard",
+        "emoji": "💪",
+        "link": "/classes/hard/",
+        "target": "_self"
+    },
+    {
+        "name": "Horror",
+        "emoji": "👻",
+        "link": "/classes/horror/",
+        "target": "_self"
+    },
+    {
+        "name": "Multiplayer",
+        "emoji": "👥",
+        "link": "/classes/multiplayer/",
+        "target": "_self"
+    },
+    {
+        "name": "Music",
+        "emoji": "🎵",
+        "link": "/classes/music/",
+        "target": "_self"
+    },
+    {
+        "name": "Puzzle",
+        "emoji": "🧩",
+        "link": "/classes/puzzle/",
+        "target": "_self"
+    },
+    {
+        "name": "Random",
+        "emoji": "🎯",
+        "link": "/classes/random/",
+        "target": "_self"
+    },
+    {
+        "name": "Shooting",
+        "emoji": "🔫",
+        "link": "/classes/shooting/",
+        "target": "_self"
+    },
+    {
+        "name": "Sport",
+        "emoji": "⚽",
+        "link": "/classes/sport/",
+        "target": "_self"
+    },
+    {
+        "name": "Stickman",
+        "emoji": "🚀",
+        "link": "/classes/stickman/",
+        "target": "_self"
+    },
+    {
+        "name": "2 Player",
+        "emoji": "👫",
+        "link": "/classes/2player/",
+        "target": "_self"
+    },
+    {
+        "name": "Tags",
+        "emoji": "🏷️",
+        "link": "/classes/tags/",
+        "target": "_self"
+    },
+    {
+        "name": "Online Games",
+        "emoji": "🏆",
+        "link": "https://www.onlinegames.io",
+        "hideOnDesktop": true,
+        "target": "_blank"
+    },
+    {
+        "name": "Apps",
+        "emoji": "🎯",
+        "link": "/apps/",
+        "hideOnDesktop": true,
+        "target": "_self"
+    },
+    {
+        "name": "Totally Science",
+        "emoji": "🔬",
+        "link": "https://totallyscience.co",
+        "hideOnDesktop": true,
+        "target": "_blank"
+    },
+    {
+        "name": "Panic Key",
+        "emoji": "⌨️",
+        "link": "https://classroom.google.com",
+        "hideOnDesktop": true,
+        "target": "_blank"
+    },
+    {
+        "name": "Settings",
+        "emoji": "⚙️",
+        "link": "/settings/",
+        "hideOnDesktop": true,
+        "target": "_self"
+    }
+]
